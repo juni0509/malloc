@@ -140,11 +140,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="manager.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="print.h" />
+    <ClInclude Include="scenario.h" />
     <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
     <ClCompile Include="manager.c" />
     <ClCompile Include="memory.c" />
+    <ClCompile Include="print.c" />
+    <ClCompile Include="scenario.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
